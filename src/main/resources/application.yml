@@ -1,0 +1,10 @@
+application:
+  cryptocurrency-information-api:
+    url: https://api.coinlore.net/api/
+
+pool:
+  cryptocurrency-information-api:
+    maxConn: 20
+    maxRoutes: 200
+    connTimeout: 60000
+    readTimeout: 60000
